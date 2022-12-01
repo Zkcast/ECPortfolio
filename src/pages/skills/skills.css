@@ -1,0 +1,111 @@
+.sec_sp {
+    backdrop-filter: invert(50);
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    background-color: rgba(0, 0, 0, 0.80);
+    margin-bottom: calc(3rem + 5.128vw);
+    margin-right: 5%;
+    margin-left: 5%;
+    border-style: solid;
+    border-width: 1px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgba(255, 255, 255, 0.38);
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.627);
+    width: fit-content;
+    height: fit-content;
+}
+.contact__form .form-control {
+    margin-top: 3%;
+    padding: 1rem;
+    line-height: 1.5;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    border-radius: 0.3rem !important;
+    border: 1px solid rgba(245, 245, 245, 0.18);
+}
+
+.contact__form input.form-control {
+    opacity: 0.8;
+    margin-bottom: 2em;
+    height: calc(2.5em + .15rem + 2px);
+}
+
+button.btn.ac_btn:hover {
+    color: var(--secondary-color);
+}
+.tech_image {   
+    margin-bottom: 50%;
+    max-width: 50px;
+    
+}
+.proyects_div{
+    margin-top: 2%;
+    justify-items: center;
+    justify-content: center;
+    display: grid;
+    transition: 0.3s ease;
+    /* max-width: 120px;
+    max-height: 150px; */
+}
+
+.proyects_div:hover {
+    transform: scale(1.2);
+}
+
+    .po_images {
+        justify-content:space-between;
+
+        /* justify-items: center; */
+        display:flex;
+        flex-wrap: wrap;
+        column-gap: 6rem;
+        row-gap: -50%;
+        /* margin-top: 5%; */
+        /*width: 100%;
+        /* text-align: center; */
+        /* margin: 0.5rem auto; */
+        /* position: relative; */
+        /* background: var(--secondary-color); */
+        /* padding: 5px;
+        background-color: black;*/
+        /* border: 1px solid rgb(60, 60, 60); */
+        transition: 0.3s ease;
+        margin-top: 2%;
+        margin-bottom: -5%;
+        margin-left: 4%;
+        margin-right: 4%;
+        /* min-height: 300px; */
+        /* border-radius: 1rem;
+        min-width: 400px; */
+        /* box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.627);  */
+    } 
+
+.loading-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    z-index: 999999999;
+    background: var(--text-color);
+    transform: translateX(100%);
+    animation: shift-rightwards 1s ease-in-out infinite;
+    animation-delay: .3s;
+}
+
+@keyframes shift-rightwards {
+    0% {
+        transform: translateX(-100%);
+    }
+    40% {
+        transform: translateX(0%);
+    }
+    60% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
