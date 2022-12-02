@@ -89,7 +89,7 @@ const services = [{
 },
 {
     title: "Database",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudinsd.",
 },
 ];
 
