@@ -38,7 +38,7 @@ const introdata = {
 
 const dataabout = {
     title: "A short description",
-    aboutme: "Born in Argentina, raised in Buenos Aires city. Since kid interested in technology, and a whole life working with computers as systems & networks technician. Now keeping this way developing software in JavaScript",
+    aboutme: "Born in Argentina, raised in Buenos Aires city. Since kid interested in technology, and a whole life working in the field as systems & networks technician. Nowadays keeping this way as software developer.",
 };
 const worktimeline = [{
     jobtitle: "Designer of week",
@@ -101,15 +101,18 @@ const dataportfolio = [{
     desctiption: "Made with React/Redux, Express, Sequelize & PostgreSQL",
     link: "https://worldcountries-app.vercel.app/",
     github: "https://github.com/Zkcast/SoyHenry-Bootcamp-PI",
+    used: "CSS. React with Redux. NodeJs. Express. Sequelize. PostgreSQL"
 },
 {
     title: 'Rent-Ten',
     icons: <FaAngular />,
-    subtitle: 'Rent or publish places around the world. \n Filters, Login, Notifications via e-mail, Payment Gateway with MercadoPago, Darkmode, etc..',
+    subtitle: 'Rent or publish places around the world.',
+    subsubtitle: 'Filters, Login, Notifications via e-mail, Payment Gateway with MercadoPago, Darkmode, etc..',
     img: rentten,
     desctiption: "Made with Angular/NgRx, Boostrap, Express, Sequelize, PostgreSQL",
     link: "https://rent-ten.vercel.app/home",
-    github: "https://github.com/raulereno/rent-ten"
+    github: "https://github.com/raulereno/rent-ten",
+    used: "TypeScript. CSS/Bootstrap. Angular/NgRx. Express. Sequelize. PostgreSQL"
 },
 ];
 
